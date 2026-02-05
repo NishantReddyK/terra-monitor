@@ -1,15 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { TrendingUp, TrendingDown, Minus } from "lucide-react";
 
-interface MarketPriceCardProps {
-  cropName: string;
-  price: number;
-  unit: string;
-  change: number;
-  market: string;
-}
-
-const MarketPriceCard = ({ cropName, price, unit, change, market }: MarketPriceCardProps) => {
+const MarketPriceCard = ({ cropName, price, unit, change, market }) => {
   const getTrendIcon = () => {
     if (change > 0) return <TrendingUp className="h-4 w-4 text-primary" />;
     if (change < 0) return <TrendingDown className="h-4 w-4 text-destructive" />;

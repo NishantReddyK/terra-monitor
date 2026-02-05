@@ -5,25 +5,25 @@ import { ShieldCheck, AlertCircle, Activity } from "lucide-react";
 const diseases = [
   {
     diseaseName: "Wheat Rust",
-    riskLevel: "low" as const,
+    riskLevel: "low",
     affectedCrop: "Wheat",
     prevention: "Apply fungicide during early growth stages. Ensure proper spacing between plants.",
   },
   {
     diseaseName: "Rice Blast",
-    riskLevel: "medium" as const,
+    riskLevel: "medium",
     affectedCrop: "Rice",
     prevention: "Use resistant varieties. Maintain balanced nitrogen fertilization.",
   },
   {
     diseaseName: "Maize Blight",
-    riskLevel: "high" as const,
+    riskLevel: "high",
     affectedCrop: "Maize",
     prevention: "Remove infected plants immediately. Apply copper-based fungicides.",
   },
   {
     diseaseName: "Root Rot",
-    riskLevel: "low" as const,
+    riskLevel: "low",
     affectedCrop: "Soybean",
     prevention: "Improve drainage. Avoid overwatering and ensure proper soil aeration.",
   },

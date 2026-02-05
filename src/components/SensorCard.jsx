@@ -1,15 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { LucideIcon } from "lucide-react";
 
-interface SensorCardProps {
-  title: string;
-  value: string;
-  unit: string;
-  icon: LucideIcon;
-  status?: "good" | "warning" | "alert";
-}
-
-const SensorCard = ({ title, value, unit, icon: Icon, status = "good" }: SensorCardProps) => {
+const SensorCard = ({ title, value, unit, icon: Icon, status = "good" }) => {
   const statusColors = {
     good: "text-primary",
     warning: "text-yellow-600",
