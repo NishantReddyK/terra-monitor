@@ -1,14 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertTriangle, CheckCircle, ShieldAlert } from "lucide-react";
 
-interface DiseasePredictionCardProps {
-  diseaseName: string;
-  riskLevel: "low" | "medium" | "high";
-  affectedCrop: string;
-  prevention: string;
-}
-
-const DiseasePredictionCard = ({ diseaseName, riskLevel, affectedCrop, prevention }: DiseasePredictionCardProps) => {
+const DiseasePredictionCard = ({ diseaseName, riskLevel, affectedCrop, prevention }) => {
   const riskConfig = {
     low: { color: "text-primary", bg: "bg-primary/10", icon: CheckCircle, label: "Low Risk" },
     medium: { color: "text-yellow-600", bg: "bg-yellow-100", icon: AlertTriangle, label: "Medium Risk" },

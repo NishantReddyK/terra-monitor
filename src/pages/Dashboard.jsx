@@ -4,12 +4,12 @@ import CropRecommendationCard from "@/components/CropRecommendationCard";
 import { Droplets, Thermometer, Gauge, Zap, Leaf } from "lucide-react";
 
 const sensorData = [
-  { title: "Soil Moisture", value: "42", unit: "%", icon: Droplets, status: "good" as const },
-  { title: "Soil Temperature", value: "24", unit: "°C", icon: Thermometer, status: "good" as const },
-  { title: "pH Level", value: "6.8", unit: "pH", icon: Gauge, status: "good" as const },
-  { title: "Nitrogen (N)", value: "180", unit: "kg/ha", icon: Leaf, status: "good" as const },
-  { title: "Phosphorus (P)", value: "45", unit: "kg/ha", icon: Zap, status: "warning" as const },
-  { title: "Potassium (K)", value: "210", unit: "kg/ha", icon: Leaf, status: "good" as const },
+  { title: "Soil Moisture", value: "42", unit: "%", icon: Droplets, status: "good" },
+  { title: "Soil Temperature", value: "24", unit: "°C", icon: Thermometer, status: "good" },
+  { title: "pH Level", value: "6.8", unit: "pH", icon: Gauge, status: "good" },
+  { title: "Nitrogen (N)", value: "180", unit: "kg/ha", icon: Leaf, status: "good" },
+  { title: "Phosphorus (P)", value: "45", unit: "kg/ha", icon: Zap, status: "warning" },
+  { title: "Potassium (K)", value: "210", unit: "kg/ha", icon: Leaf, status: "good" },
 ];
 
 const cropRecommendations = [

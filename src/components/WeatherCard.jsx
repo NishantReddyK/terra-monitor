@@ -1,14 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Sun, Droplets, Wind } from "lucide-react";
+import { Sun, Droplets, Wind } from "lucide-react";
 
-interface WeatherCardProps {
-  temperature: number;
-  humidity: number;
-  windSpeed: number;
-  condition: string;
-}
-
-const WeatherCard = ({ temperature, humidity, windSpeed, condition }: WeatherCardProps) => {
+const WeatherCard = ({ temperature, humidity, windSpeed, condition }) => {
   return (
     <Card className="glass-card animate-grow">
       <CardHeader className="pb-2">

@@ -1,14 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Sprout } from "lucide-react";
 
-interface CropRecommendationCardProps {
-  cropName: string;
-  suitability: number;
-  season: string;
-  waterNeeds: string;
-}
-
-const CropRecommendationCard = ({ cropName, suitability, season, waterNeeds }: CropRecommendationCardProps) => {
+const CropRecommendationCard = ({ cropName, suitability, season, waterNeeds }) => {
   return (
     <Card className="glass-card hover:shadow-md transition-all hover:-translate-y-1 animate-grow">
       <CardHeader className="pb-2">
