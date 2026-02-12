@@ -1,0 +1,9 @@
+{
+  "appId": "app.lovable.404b12534e684bc89059c1c1503ef95c",
+  "appName": "SoilSense",
+  "webDir": "dist",
+  "server": {
+    "url": "https://404b1253-4e68-4bc8-9059-c1c1503ef95c.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  }
+}
