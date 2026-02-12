@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 overflow-hidden">
+      <section className="relative py-12 md:py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 earth-gradient opacity-50" />
         <div className="container mx-auto px-4 relative">
           <div className="max-w-3xl mx-auto text-center">
@@ -37,7 +37,7 @@ const Home = () => {
               <Leaf className="h-4 w-4" />
               Smart Agriculture Solutions
             </div>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               Grow Smarter with{" "}
               <span className="text-primary">SoilSense</span>
             </h1>

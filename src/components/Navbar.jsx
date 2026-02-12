@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14 md:h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="p-2 rounded-lg nature-gradient">
@@ -67,7 +67,7 @@ const Navbar = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setMobileOpen(false)}
-                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                  className={`px-4 py-3 rounded-lg text-base font-medium transition-colors active:scale-[0.98] ${
                     location.pathname === link.path
                       ? "bg-primary text-primary-foreground"
                       : "text-muted-foreground hover:text-foreground hover:bg-muted"
